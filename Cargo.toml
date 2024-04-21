@@ -9,6 +9,7 @@ license = "LICENSE-APACHE"
 repository = "https://github.com/eda-rs/yamm-sys"
 readme = "README.md"
 exclude = ["/yamm"]
+include = ["/yamm/src/cpp"]
 
 # Reference
 # https://medium.com/dwelo-r-d/using-c-libraries-in-rust-13961948c72a
