@@ -9,7 +9,7 @@ fn main(){
     println!("cargo:rerun-if-changed=yamm.h");
 
     let llvm_config_out = Command::new("llvm-config")
-        .args(&["--cxxflags", "--ldflags", "--system-libs", "--libs", "core"])
+        .args(["--cxxflags", "--ldflags", "--system-libs", "--libs", "core"])
         .output()
         .expect("failed to execute llvm-config");
 

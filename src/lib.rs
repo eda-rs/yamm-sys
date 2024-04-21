@@ -3,10 +3,11 @@
 #![allow(non_camel_case_types)]
 #![allow(non_upper_case_globals)]
 
-pub use bindgen::{Yamm,YammBuffer};
+pub use ffi::{Yamm,YammBuffer};
 
 
-mod bindgen {
+#[allow(clippy::all)]
+mod ffi {
 
     include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
