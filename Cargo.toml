@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 build = "build.rs"
 authors = ["erihsu@139.com"]
+descriptions = "YAMM(yet another memory mangement) rust binding"
 
 # Reference
 # https://medium.com/dwelo-r-d/using-c-libraries-in-rust-13961948c72a
