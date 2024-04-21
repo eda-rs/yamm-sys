@@ -8,7 +8,7 @@ description = "YAMM(yet another memory mangement) rust binding"
 license = "LICENSE-APACHE"
 repository = "https://github.com/eda-rs/yamm-sys"
 readme = "README.md"
-include = ["/yamm/src/cpp","/src","LICENSE-APACHE"]
+include = ["/yamm/src/cpp","/src","LICENSE-APACHE","build.rs"]
 
 # Reference
 # https://medium.com/dwelo-r-d/using-c-libraries-in-rust-13961948c72a
