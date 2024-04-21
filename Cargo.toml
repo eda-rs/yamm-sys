@@ -1,0 +1,17 @@
+[package]
+name = "yamm-sys"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+authors = ["erihsu@139.com"]
+
+# Reference
+# https://medium.com/dwelo-r-d/using-c-libraries-in-rust-13961948c72a
+# https://doc.rust-lang.org/nomicon/ffi.html
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.69"
